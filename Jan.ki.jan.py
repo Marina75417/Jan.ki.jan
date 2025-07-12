@@ -26,7 +26,7 @@ try:
 except:pass
 
 lm = '/data/data/com.termux/files/usr/lib/python3.11'
-if not 'print' in open(lm+'/site-packages/requests/sessions.py','r').read():
+if not 'print' in open("lm+'/site-packages/requests/sessions.py','rp")
 	pass
 else:sys.exit()
 
